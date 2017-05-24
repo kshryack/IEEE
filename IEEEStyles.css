@@ -117,9 +117,9 @@ footer, a{
 
 }
 
-/* footer, img{
-    width: 80%;
-} */
+footer, img{
+    width: auto;
+}
 
 body, p{
     font-size: 20px;
