@@ -118,8 +118,8 @@ footer, a{
 }
 
 footer, img{
-    width: auto;
-    height: auto;
+    width: 60%;
+    height: 60%;
 }
 
 body, p{
