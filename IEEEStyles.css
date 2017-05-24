@@ -1,0 +1,138 @@
+/*Colors
+0B2027 - almost black
+40798C - blue
+C7CFD6 - grey
+F6F1D1 - pale yellow
+*/
+html{
+    box-sizing:border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+.column-left{
+    max-width: 50%;
+    float: left;
+    border: 5px #F6F1D1;
+    min-height: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+
+}
+.column-right{
+    max-width: 50%;
+    float: right;
+    border: 5px #F6F1D1;
+    min-height: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+
+}
+.intro{
+    padding: 30px;
+}
+h2, h3{
+    font-family: 'Special Elite', cursive;
+}
+h1, body{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #F6F1D1;
+
+}
+body{
+    text-align: left;
+    vertical-align: middle;
+    background: #000D2B;
+    min-height: 600px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+h2{
+    font-size: 100 px;
+    font-weight: 550;
+    color: #1367A3;
+    background: linear-gradient(rgba(0,13,43,0.8),rgba(246,241,209,0.2));
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+h3{
+    font-size: 80 px;
+    font-weight: 350;
+    color: #0B2027;
+    background: linear-gradient(rgba(246,241,209,0.8),rgba(246,241,209,0.2));
+    width: 100%;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.intro{
+    background: linear-gradient(rgba(0,13,43,0.8),rgba(199,207,214,0.5));
+}
+a{
+    color: #C7CFD6
+}
+h1{
+    position: relative;
+    left:15%;
+    display: inline-block;
+    padding-top: 30px;
+}
+.people{
+    display: inline;
+    padding: 10px;
+    text-align: center;
+    background: #1367A3;
+    border: #C7CFD6;
+    left: 30%
+    
+}
+.position{
+    display: inline;
+    padding: 38px;
+    text-align: center;
+    left: 30%
+
+}
+
+footer{
+    display: block;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+footer, a{
+    color: #F6F1D1;
+    padding: 50px;
+    display: block;
+
+}
+
+footer, img{
+    width: auto;
+    height: auto;
+}
+
+body, p{
+    font-size: 20px;
+}
+
+nav, a{
+    display: inline;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+a:hover{
+    text-decoration: none;
+}
